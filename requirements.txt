@@ -3,3 +3,4 @@ dash
 bcrypt
 pandas
 plotly
+gunicorn
