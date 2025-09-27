@@ -572,7 +572,9 @@ def update_graph_avis_film(selected_film, selected_user):
     )
     return fig
 
+server = app.server
+
 # --- Lancement de l'application ---
 if __name__ == '__main__':
     app.run(debug=True)
-    server = app.server
+    
